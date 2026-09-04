@@ -17,25 +17,34 @@ Many small businesses still rely on manual billing or Excel sheets, which leads 
 
 This app solves that by providing a simple, centralized system for billing + ledger tracking.
 
-✨ Features
-🧾 Invoice Generation
-Create GST-style invoices using weight × rate + GST
-⚡ Auto GST Calculation
-2.5% CGST + 2.5% SGST automatically applied (configurable)
-🧠 Smart Auto-Suggest
-Existing company names auto-fill GSTIN
-📊 Dashboard with Chart
-Visual overview of total / paid / pending amounts (Chart.js)
-📒 Per-Company Ledger
-Track complete billing history with filters
-💰 Partial Payments
-Record part-payments and auto-update pending balance
-✏️ Edit & Delete Bills
-Full CRUD functionality
-🖨️ Print-ready Invoice
-Clean invoice layout for printing or PDF export
-📅 Date Validation
-Prevents invalid invoice and weighbridge dates
+## ✨ Features
+
+- 🧾 **Invoice Generation**  
+  Create GST-style invoices using weight × rate + GST  
+
+- ⚡ **Auto GST Calculation**  
+  2.5% CGST + 2.5% SGST automatically applied (configurable)  
+
+- 🧠 **Smart Auto-Suggest**  
+  Existing company names auto-fill GSTIN  
+
+- 📊 **Dashboard with Chart**  
+  Visual overview of total / paid / pending amounts (Chart.js)  
+
+- 📒 **Per-Company Ledger**  
+  Track complete billing history with filters  
+
+- 💰 **Partial Payments**  
+  Record part-payments and auto-update pending balance  
+
+- ✏️ **Edit & Delete Bills**  
+  Full CRUD functionality  
+
+- 🖨️ **Print-ready Invoice**  
+  Clean invoice layout for printing or PDF export  
+
+- 📅 **Date Validation**  
+  Prevents invalid invoice and weighbridge dates  
 
 🛠️ Tech Stack
 Backend: Flask
