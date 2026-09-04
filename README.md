@@ -44,21 +44,25 @@ Forms & Security: Flask-WTF (CSRF protection)
 Frontend: Jinja2, HTML, CSS, Vanilla JS
 Charts: Chart.js (local, no CDN)
 
-📁 Project Structure
+## 📁 Project Structure
 
+```plaintext
 Ajay_Industries/
-│── app.py
-│── requirements.txt
-│── .gitignore
-│── database.db
+├── app.py
+├── requirements.txt
+├── .gitignore
+├── database.db
 │
 ├── modules/
 │   ├── db.py
 │   ├── calculations.py
 │   ├── utils.py
+│   └── __init__.py
 │
 ├── static/
-│   ├── css/style.css
+│   ├── css/
+│   │   └── style.css
+│   │
 │   └── js/
 │       ├── chart.umd.min.js
 │       └── script.js
@@ -71,6 +75,7 @@ Ajay_Industries/
     ├── edit_bill.html
     ├── invoice.html
     └── error.html
+```
 
 ⚙️ Setup & Installation
 git clone https://github.com/khushboobanjara2005-collab/Billing-Sales-Dashboard-System.git
