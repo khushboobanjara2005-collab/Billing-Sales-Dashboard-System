@@ -46,12 +46,13 @@ This app solves that by providing a simple, centralized system for billing + led
 - 📅 **Date Validation**  
   Prevents invalid invoice and weighbridge dates  
 
-🛠️ Tech Stack
-Backend: Flask
-Database: SQLite
-Forms & Security: Flask-WTF (CSRF protection)
-Frontend: Jinja2, HTML, CSS, Vanilla JS
-Charts: Chart.js (local, no CDN)
+## 🛠️ Tech Stack
+
+- **Backend:** Flask  
+- **Database:** SQLite  
+- **Forms & Security:** Flask-WTF (CSRF protection)  
+- **Frontend:** Jinja2, HTML, CSS, Vanilla JS  
+- **Charts:** Chart.js (local, no CDN)
 
 ## 📁 Project Structure
 
@@ -123,15 +124,29 @@ You can safely remove:
 modules/Bill.py (unused script)
 bills/ (empty folder)
 
-🚀 Future Improvements
-🔐 User authentication (login system)
-📄 Export invoices as PDF
-☁️ Switch to PostgreSQL (production-ready DB)
-📱 Mobile responsiveness improvements
-📊 Advanced analytics dashboard
-🌐 Live Demo
+## 🚀 Future Improvements
 
-Add after deployment
+- 🔐 **User Authentication**  
+  Add login system for secure access  
+
+- 📄 **Export Invoices as PDF**  
+  Enable download/share of invoices  
+
+- ☁️ **PostgreSQL Integration**  
+  Replace SQLite with production-ready database  
+
+- 📱 **Mobile Responsiveness**  
+  Improve UI for smaller screens  
+
+- 📊 **Advanced Analytics**  
+  Add deeper financial insights and reports  
+
+---
+
+## 🌐 Live Demo
+
+> Add after deployment
+
 https://your-app-link.com
 
 📜 License
